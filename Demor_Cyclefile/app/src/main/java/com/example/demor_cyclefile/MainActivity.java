@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-
+import android.util.Log;
 public class MainActivity extends AppCompatActivity {
     Button btnCall;
 
@@ -19,14 +19,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Toast.makeText(this,"CR424 - onDestroy()",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"MainActivity - onDestroy()",Toast.LENGTH_LONG).show();
+        Log.d("MainActivity","onDestroy()");
     }
 
     //Được gọi khi Activity bị tạm dừng (khi chuyển sang Activity khác)
     @Override
     protected void onPause() {
         super.onPause();
-        Toast.makeText(this,"CR424 - onPause()",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"MainActivity - onPause()",Toast.LENGTH_LONG).show();
+        Log.d("MainActivity","onPause()");
     }
     //Được gọi khi Activity quay lại từ trạng thái bị dừng, như làm mới dữ liệu hoặc giao diện
     //Luồng sự kiện:
@@ -36,14 +38,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onRestart() {
         super.onRestart();
-        Toast.makeText(this,"CR424 - onRestart()",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"MainActivity - onRestart()",Toast.LENGTH_LONG).show();
     }
 
     //Được gọi khi Activity bắt đầu tương tác với người dùng
     @Override
     protected void onResume() {
         super.onResume();
-        Toast.makeText(this,"CR424 - onResume()",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"MainActivity - onResume()",Toast.LENGTH_LONG).show();
     }
 
     //Được gọi khi Activity đang ở trạng thái hiển thị
@@ -51,12 +53,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         //Thông báo Toast để minh họa trạng thái
-        Toast.makeText(this,"CR424 - onStart()",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"MainActivity - onStart()",Toast.LENGTH_LONG).show();
     }
     // Được gọi khi Activity không còn hiển thị
     @Override
     protected void onStop() {
         super.onStop();
+        Toast.makeText(this, "MainActivity - onStop()", Toast.LENGTH_LONG).show();
+        Log.d("MainActivity","onStop()");
     }
 
     @Override
@@ -65,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         //Thiết lập giao diện
         setContentView(R.layout.activity_main);
-        Toast.makeText(this, "CR424 - onCreate()", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "MainActivity - onCreate()", Toast.LENGTH_LONG).show();
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);

@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 DecimalFormat dcf = new DecimalFormat("#.00");
                 String doC = edtCelsius.getText()+"";
 
-                int C = Integer.parseInt(doC);
+                double C = Double.parseDouble(doC);
                 edtFahrenheit.setText("" + dcf.format((C * 9 / 5) + 32));
             }
         });
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 DecimalFormat dcf = new DecimalFormat("#.00");
                 String doF = edtFahrenheit.getText()+"";
 
-                int F = Integer.parseInt(doF);
+                double F = Double.parseDouble(doF);
                 edtCelsius.setText("" + dcf.format((F - 32) * 5 / 9));
             }
         });

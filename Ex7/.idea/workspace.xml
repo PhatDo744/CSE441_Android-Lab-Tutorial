@@ -4,49 +4,46 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cd055e4-92e7-453b-8769-c0519a7d7bb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LearnBundle/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/androidTest/java/com/example/learnbundle/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/java/com/example/learnbundle/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/java/com/example/learnbundle/ketqua.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/layout/activity_ketqua.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/app/src/test/java/com/example/learnbundle/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/gradle/libs.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnBundle/settings.gradle.kts" afterDir="false" />
+    <list default="true" id="16c2e005-843e-4802-a945-ae2f25fc0754" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/androidTest/java/com/example/b3tonghieu/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/java/com/example/b3tonghieu/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/app/src/test/java/com/example/b3tonghieu/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/B3TongHieu/settings.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/caches/deviceStreaming.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,25 +54,31 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "PhatDo04"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PhatDo04&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/PhatDo744/CSE441_Android-Lab-Tutorial.git",
-    "accountId": "56332a5b-6867-498e-a317-62ade1c5c722"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PhatDo744/CSE441_Android-Lab-Tutorial.git&quot;,
+    &quot;accountId&quot;: &quot;56332a5b-6867-498e-a317-62ade1c5c722&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
-  <component name="ProjectId" id="2xA3ddbu1f0FI7mUqCuTkz7Q8NX" />
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2xA7OPgNNkY3YOvAHgwpI99yCwy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -86,20 +89,22 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "android.gradle.sync.needed": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6cd055e4-92e7-453b-8769-c0519a7d7bb5" name="Changes" comment="" />
-      <created>1747367138978</created>
+      <changelist id="16c2e005-843e-4802-a945-ae2f25fc0754" name="Changes" comment="" />
+      <created>1747368991598</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1747367138978</updated>
+      <updated>1747368991598</updated>
     </task>
     <servers />
   </component>

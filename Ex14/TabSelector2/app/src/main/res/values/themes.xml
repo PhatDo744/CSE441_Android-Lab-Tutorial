@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TabSelector2" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:tabWidgetStyle">@style/CustomTabWidget</item>
+    </style>
+
+    <style name="Theme.TabSelector2" parent="Base.Theme.TabSelector2" />
+    
+    <!-- Custom tab widget style for smaller icons -->
+    <style name="CustomTabWidget" parent="@android:style/Widget.TabWidget">
+        <item name="android:tabStripEnabled">true</item>
+        <item name="android:tabStripLeft">@null</item>
+        <item name="android:tabStripRight">@null</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">8dp</item>
+    </style>
+</resources>

@@ -19,6 +19,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
     // String DB_PATH_SUFFIX = "/databases/"; // Removed
     SQLiteDatabase database = null;
+    String PHATDO = "HEHEHEHEHEHEHHEHEHEHEHHEHEHEHE";
     String DATABASE_NAME = "qlsach.db";
     //Khai báo ListView
     ListView lv;

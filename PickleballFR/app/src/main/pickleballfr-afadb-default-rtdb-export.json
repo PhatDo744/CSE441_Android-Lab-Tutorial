@@ -1,0 +1,97 @@
+{
+  "users": {
+    "admin_uid_123": {
+      "role": "admin",
+      "displayName": "Admin TLU",
+      "email": "admin@tlu.edu.vn"
+    },
+    "member_uid_456": {
+      "role": "member",
+      "displayName": "Nguyen Van A",
+      "email": "nguyenvana@gmail.com"
+    }
+  },
+  "players": {
+    "MBR001": {
+      "member_code": "MBR001",
+      "username": "Nguyen Van A",
+      "avatar": "mbr001.jpg",
+      "birthday": "2005-10-10",
+      "hometown": "Ha Noi",
+      "residence": "TP.HCM",
+      "rating_single": 1.25,
+      "rating_double": 1.10
+    },
+    "MBR002": {
+      "member_code": "MBR002",
+      "username": "Tran Thi B",
+      "avatar": "mbr002.jpg",
+      "birthday": "2006-03-15",
+      "hometown": "Da Nang",
+      "residence": "TP.HCM",
+      "rating_single": 0.95,
+      "rating_double": 1.05
+    }
+  },
+  "matches": {
+    "MATCH001": {
+      "match_code": "MATCH001",
+      "type": "single",
+      "player1": "MBR001",
+      "player2": "MBR002",
+      "score1": 15,
+      "score2": 10,
+      "winner": "MBR001",
+      "status": "completed",
+      "datetime": "2024-05-20T09:00:00"
+    },
+    "MATCH002": {
+      "match_code": "MATCH002",
+      "type": "double",
+      "team1": ["MBR001", "MBR002"],
+      "team2": ["MBR003", "MBR004"],
+      "score_team1": 21,
+      "score_team2": 17,
+      "winner_team": "team1",
+      "status": "completed",
+      "datetime": "2024-05-21T10:30:00"
+    }
+  },
+  "transactions": {
+    "TRX001": {
+      "transaction_code": "TRX001",
+      "member_code": "MBR002",
+      "type": "penalty",
+      "amount": 20000,
+      "status": "unpaid",
+      "note": "Thua trận MATCH001",
+      "created_at": "2024-05-20T10:00:00"
+    },
+    "TRX002": {
+      "transaction_code": "TRX002",
+      "member_code": "MBR001",
+      "type": "monthly_fee",
+      "amount": 100000,
+      "status": "paid",
+      "created_at": "2024-05-01T00:00:00"
+    }
+  },
+  "news": {
+    "NEWS001": {
+      "news_code": "NEWS001",
+      "title": "Giao lưu đầu mùa",
+      "content": "Ngày 20/5 CLB tổ chức giao lưu tại nhà thi đấu TLU...",
+      "image": "news001.jpg",
+      "author": "admin_uid_123",
+      "timestamp": "2024-05-20T12:00:00"
+    },
+    "NEWS002": {
+      "news_code": "NEWS002",
+      "title": "Cập nhật bảng xếp hạng",
+      "content": "Top 5 vận động viên tuần qua...",
+      "image": "rank2024.jpg",
+      "author": "admin_uid_123",
+      "timestamp": "2024-05-21T14:00:00"
+    }
+  }
+}

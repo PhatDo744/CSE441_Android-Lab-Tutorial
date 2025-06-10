@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "201978542249",
+    "firebase_url": "https://pickleballfr-afadb-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "pickleballfr-afadb",
+    "storage_bucket": "pickleballfr-afadb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201978542249:android:a8d97e872e7afa7448d1b8",
+        "android_client_info": {
+          "package_name": "com.example.pickleballfr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXvmzImPlPHRMAK2uC9nY9ejv6TgRMftA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SubActivity">
+    <TextView
+        android:id="@+id/txtMaSoChiTiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FF0000"/>
+
+    <TextView
+        android:id="@+id/txtTenBaiHatChiTiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lời bài hát:"
+        android:textStyle="italic"
+        android:layout_marginTop="16dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="4dp"
+        android:background="#F0F0F0"
+        android:padding="8dp">
+        <TextView
+            android:id="@+id/txtLoiBaiHatChiTiet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/txtTacGiaChiTiet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yêu thích: "
+            android:textSize="16sp"/>
+
+        <ImageButton
+            android:id="@+id/btnUnlikeSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_unlike"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Chưa thích"
+            android:padding="8dp"/>
+
+        <ImageButton
+            android:id="@+id/btnLikeSub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_like"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Đã thích"
+            android:visibility="gone"
+            android:padding="8dp"/>
+    </LinearLayout>
+</LinearLayout>
